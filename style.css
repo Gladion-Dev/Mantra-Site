@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+}
+.v1{
+    border: solid 2.5px red;
+}
+html.b1{
+background:rgb(32, 32, 32);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 46px;
+    width: 100%;
+    background-color: black;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+}
+
+.active {
+    background-color: red;
+}
+div.pop{
+    text-align:center;
+}
+html, body {
+    height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+        
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: #FFF;
+    width: 100%;
+    height: 75px;    
+    text-align: center;
+    line-height: 75px;
+}
+#corpo video{
+    width: 1000px;
+    margin:0 auto;
+    display: block;
+}
+h1.t2{
+    text-align: center;
+}
+@media screen and(min-width : 768px){
+    html.b1{
+    width: 50%;
+    }
+}
+@media screen and(min-width : 1080px){
+    html.b1{
+    width: 33.3%;
+    }
+
+.clear{
+    clear: both;
+}
